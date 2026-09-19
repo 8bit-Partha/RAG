@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env
+data/processed/chroma_db/
+data/processed/chunks.json
+eval/results.json
+.venv/
+venv/
+.streamlit/

@@ -1,0 +1,524 @@
+[
+  {
+    "chunk_id": "chunk_0000",
+    "text": "[acceptable_use_policy.md | Section 1: Scope]\n## Section 1: Scope\nThis policy applies to all use of company-owned or company-managed devices,\nnetworks, and accounts by employees, contractors, and interns.",
+    "raw_text": "## Section 1: Scope\nThis policy applies to all use of company-owned or company-managed devices,\nnetworks, and accounts by employees, contractors, and interns.",
+    "source": "acceptable_use_policy.md",
+    "section": "Section 1: Scope",
+    "doc_type": "policy",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0001",
+    "text": "[acceptable_use_policy.md | Section 2: Permitted Use]\n## Section 2: Permitted Use\nCompany systems are provided primarily for business purposes. Limited\npersonal use is permitted provided it does not interfere with job\nperformance, consume excessive resources, or violate any other company\npolicy.",
+    "raw_text": "## Section 2: Permitted Use\nCompany systems are provided primarily for business purposes. Limited\npersonal use is permitted provided it does not interfere with job\nperformance, consume excessive resources, or violate any other company\npolicy.",
+    "source": "acceptable_use_policy.md",
+    "section": "Section 2: Permitted Use",
+    "doc_type": "policy",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0002",
+    "text": "[acceptable_use_policy.md | Section 3: Prohibited Activities]\n## Section 3: Prohibited Activities\nThe following are strictly prohibited on company systems:\n- Installing unauthorized or unlicensed software.\n- Disabling or circumventing security controls, including endpoint\n  protection, screen locks, or network monitoring tools.\n- Connecting personal storage devices (USB drives, external hard drives) to\n  systems that process sensitive data, unless explicitly approved.\n- Transmitting confidential company data to personal email accounts or\n  unsanctioned cloud storage services.\n- Using company systems to access or distribute illegal content.",
+    "raw_text": "## Section 3: Prohibited Activities\nThe following are strictly prohibited on company systems:\n- Installing unauthorized or unlicensed software.\n- Disabling or circumventing security controls, including endpoint\n  protection, screen locks, or network monitoring tools.\n- Connecting personal storage devices (USB drives, external hard drives) to\n  systems that process sensitive data, unless explicitly approved.\n- Transmitting confidential company data to personal email accounts or\n  unsanctioned cloud storage services.\n- Using company systems to access or distribute illegal content.",
+    "source": "acceptable_use_policy.md",
+    "section": "Section 3: Prohibited Activities",
+    "doc_type": "policy",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0003",
+    "text": "[acceptable_use_policy.md | Section 4: Data Handling]\n## Section 4: Data Handling\nEmployees must classify and handle data according to its sensitivity\nlevel (Public, Internal, Confidential, Restricted). Confidential and\nRestricted data must be encrypted both at rest and in transit, and must\nnot be stored on local devices without explicit written approval.",
+    "raw_text": "## Section 4: Data Handling\nEmployees must classify and handle data according to its sensitivity\nlevel (Public, Internal, Confidential, Restricted). Confidential and\nRestricted data must be encrypted both at rest and in transit, and must\nnot be stored on local devices without explicit written approval.",
+    "source": "acceptable_use_policy.md",
+    "section": "Section 4: Data Handling",
+    "doc_type": "policy",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0004",
+    "text": "[acceptable_use_policy.md | Section 5: Monitoring]\n## Section 5: Monitoring\nThe company reserves the right to monitor use of its systems, including\nnetwork traffic, email, and file access, for security and compliance\npurposes, consistent with applicable law.",
+    "raw_text": "## Section 5: Monitoring\nThe company reserves the right to monitor use of its systems, including\nnetwork traffic, email, and file access, for security and compliance\npurposes, consistent with applicable law.",
+    "source": "acceptable_use_policy.md",
+    "section": "Section 5: Monitoring",
+    "doc_type": "policy",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0005",
+    "text": "[acceptable_use_policy.md | Section 6: Enforcement]\n## Section 6: Enforcement\nViolations of this policy may result in disciplinary action up to and\nincluding termination of employment, and may be reported to law\nenforcement where illegal activity is involved.",
+    "raw_text": "## Section 6: Enforcement\nViolations of this policy may result in disciplinary action up to and\nincluding termination of employment, and may be reported to law\nenforcement where illegal activity is involved.",
+    "source": "acceptable_use_policy.md",
+    "section": "Section 6: Enforcement",
+    "doc_type": "policy",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0006",
+    "text": "[access_control_policy.md | Section 1: Purpose]\n## Section 1: Purpose\nThis policy establishes requirements for granting, reviewing, and revoking\naccess to organizational systems and data, based on the principle of least\nprivilege.",
+    "raw_text": "## Section 1: Purpose\nThis policy establishes requirements for granting, reviewing, and revoking\naccess to organizational systems and data, based on the principle of least\nprivilege.",
+    "source": "access_control_policy.md",
+    "section": "Section 1: Purpose",
+    "doc_type": "policy",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0007",
+    "text": "[access_control_policy.md | Section 2: Access Provisioning]\n## Section 2: Access Provisioning\n- All access requests must be submitted through the access management\n  system and approved by the resource owner and the requester's manager.\n- Access is granted based on job role using role-based access control\n  (RBAC). Standing access to production systems requires additional\n  approval from the security team.\n- Temporary elevated access (\"just-in-time\" access) expires automatically\n  after 8 hours unless explicitly renewed.",
+    "raw_text": "## Section 2: Access Provisioning\n- All access requests must be submitted through the access management\n  system and approved by the resource owner and the requester's manager.\n- Access is granted based on job role using role-based access control\n  (RBAC). Standing access to production systems requires additional\n  approval from the security team.\n- Temporary elevated access (\"just-in-time\" access) expires automatically\n  after 8 hours unless explicitly renewed.",
+    "source": "access_control_policy.md",
+    "section": "Section 2: Access Provisioning",
+    "doc_type": "policy",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0008",
+    "text": "[access_control_policy.md | Section 3: Authentication Requirements]\n## Section 3: Authentication Requirements\n- Multi-factor authentication (MFA) is required for all access to systems\n  handling sensitive data, remote access (VPN), and administrative accounts.\n- Passwords must be a minimum of 14 characters. Password sharing between\n  individuals is strictly prohibited under all circumstances.\n- Service accounts must use certificate-based authentication or managed\n  secrets rather than static passwords where technically feasible.",
+    "raw_text": "## Section 3: Authentication Requirements\n- Multi-factor authentication (MFA) is required for all access to systems\n  handling sensitive data, remote access (VPN), and administrative accounts.\n- Passwords must be a minimum of 14 characters. Password sharing between\n  individuals is strictly prohibited under all circumstances.\n- Service accounts must use certificate-based authentication or managed\n  secrets rather than static passwords where technically feasible.",
+    "source": "access_control_policy.md",
+    "section": "Section 3: Authentication Requirements",
+    "doc_type": "policy",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0009",
+    "text": "[access_control_policy.md | Section 4: Access Review]\n## Section 4: Access Review\n- Access rights for all systems classified as sensitive or critical are\n  reviewed quarterly by resource owners.\n- Any access not used within 90 days is automatically flagged for\n  revocation unless justified by the resource owner.\n- Upon role change or termination, access must be revoked within 24 hours\n  for voluntary departures and immediately for involuntary terminations.",
+    "raw_text": "## Section 4: Access Review\n- Access rights for all systems classified as sensitive or critical are\n  reviewed quarterly by resource owners.\n- Any access not used within 90 days is automatically flagged for\n  revocation unless justified by the resource owner.\n- Upon role change or termination, access must be revoked within 24 hours\n  for voluntary departures and immediately for involuntary terminations.",
+    "source": "access_control_policy.md",
+    "section": "Section 4: Access Review",
+    "doc_type": "policy",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0010",
+    "text": "[access_control_policy.md | Section 5: Privileged Access Management]\n## Section 5: Privileged Access Management\n- Administrative and privileged accounts are separate from standard user\n  accounts and are not used for routine tasks such as email or browsing.\n- All privileged session activity is logged and retained for a minimum of\n  one year.\n- Break-glass emergency access procedures require post-use justification\n  submitted within 24 hours and are reviewed by the security team.",
+    "raw_text": "## Section 5: Privileged Access Management\n- Administrative and privileged accounts are separate from standard user\n  accounts and are not used for routine tasks such as email or browsing.\n- All privileged session activity is logged and retained for a minimum of\n  one year.\n- Break-glass emergency access procedures require post-use justification\n  submitted within 24 hours and are reviewed by the security team.",
+    "source": "access_control_policy.md",
+    "section": "Section 5: Privileged Access Management",
+    "doc_type": "policy",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0011",
+    "text": "[access_control_policy.md | Section 6: Third-Party Access]\n## Section 6: Third-Party Access\nExternal vendors and contractors are granted the minimum access necessary\nfor the duration of their engagement only, and all third-party access is\nreviewed monthly by the security team.",
+    "raw_text": "## Section 6: Third-Party Access\nExternal vendors and contractors are granted the minimum access necessary\nfor the duration of their engagement only, and all third-party access is\nreviewed monthly by the security team.",
+    "source": "access_control_policy.md",
+    "section": "Section 6: Third-Party Access",
+    "doc_type": "policy",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0012",
+    "text": "[incident_response_policy.md | Section 1: Purpose]\n## Section 1: Purpose\nThis policy defines how the organization detects, responds to, and recovers\nfrom cybersecurity incidents. It applies to all employees, contractors, and\nthird parties with access to company systems.",
+    "raw_text": "## Section 1: Purpose\nThis policy defines how the organization detects, responds to, and recovers\nfrom cybersecurity incidents. It applies to all employees, contractors, and\nthird parties with access to company systems.",
+    "source": "incident_response_policy.md",
+    "section": "Section 1: Purpose",
+    "doc_type": "policy",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0013",
+    "text": "[incident_response_policy.md | Section 2: Incident Classification]\n## Section 2: Incident Classification\nIncidents are classified into four severity levels:\n- **Critical**: Confirmed breach of sensitive data, ransomware execution, or\n  loss of control over production systems. Requires immediate escalation to\n  the CISO and executive team within 30 minutes of detection.\n- **High**: Active exploitation attempt with potential for data exposure, or\n  compromise of a single non-production system. Escalate to the security\n  team lead within 2 hours.\n- **Medium**: Suspicious activity that does not indicate active compromise,\n  such as repeated failed login attempts or unusual network scanning.\n  Investigate within 8 business hours.\n- **Low**: Policy violations or minor anomalies with no indication of",
+    "raw_text": "## Section 2: Incident Classification\nIncidents are classified into four severity levels:\n- **Critical**: Confirmed breach of sensitive data, ransomware execution, or\n  loss of control over production systems. Requires immediate escalation to\n  the CISO and executive team within 30 minutes of detection.\n- **High**: Active exploitation attempt with potential for data exposure, or\n  compromise of a single non-production system. Escalate to the security\n  team lead within 2 hours.\n- **Medium**: Suspicious activity that does not indicate active compromise,\n  such as repeated failed login attempts or unusual network scanning.\n  Investigate within 8 business hours.\n- **Low**: Policy violations or minor anomalies with no indication of",
+    "source": "incident_response_policy.md",
+    "section": "Section 2: Incident Classification",
+    "doc_type": "policy",
+    "part": "1/2"
+  },
+  {
+    "chunk_id": "chunk_0014",
+    "text": "[incident_response_policy.md | Section 2: Incident Classification]\nigate within 8 business hours.\n- **Low**: Policy violations or minor anomalies with no indication of\n  compromise. Log and review during routine security operations.",
+    "raw_text": "igate within 8 business hours.\n- **Low**: Policy violations or minor anomalies with no indication of\n  compromise. Log and review during routine security operations.",
+    "source": "incident_response_policy.md",
+    "section": "Section 2: Incident Classification",
+    "doc_type": "policy",
+    "part": "2/2"
+  },
+  {
+    "chunk_id": "chunk_0015",
+    "text": "[incident_response_policy.md | Section 3: Response Procedure]\n## Section 3: Response Procedure\n1. **Detection**: Any employee who observes suspicious activity must report\n   it to the security team via the incident reporting channel immediately.\n2. **Containment**: The on-call security engineer isolates affected systems\n   from the network to prevent lateral movement, without powering down\n   systems (to preserve forensic evidence).\n3. **Eradication**: Remove the root cause, including malware, unauthorized\n   access, or vulnerable configurations.\n4. **Recovery**: Restore affected systems from known-good backups and\n   validate integrity before returning them to production.\n5. **Post-Incident Review**: Within 5 business days of resolution, the\n   security team produces a report covering root cause, timeline, impact,\n   and remediation steps taken.",
+    "raw_text": "## Section 3: Response Procedure\n1. **Detection**: Any employee who observes suspicious activity must report\n   it to the security team via the incident reporting channel immediately.\n2. **Containment**: The on-call security engineer isolates affected systems\n   from the network to prevent lateral movement, without powering down\n   systems (to preserve forensic evidence).\n3. **Eradication**: Remove the root cause, including malware, unauthorized\n   access, or vulnerable configurations.\n4. **Recovery**: Restore affected systems from known-good backups and\n   validate integrity before returning them to production.\n5. **Post-Incident Review**: Within 5 business days of resolution, the\n   security team produces a report covering root cause, timeline, impact,\n   and remediation steps taken.",
+    "source": "incident_response_policy.md",
+    "section": "Section 3: Response Procedure",
+    "doc_type": "policy",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0016",
+    "text": "[incident_response_policy.md | Section 4: Communication]\n## Section 4: Communication\nDuring a Critical or High severity incident, the designated incident\ncommander is the single point of communication. External communication\n(customers, regulators, press) must be approved by Legal and Executive\nleadership before release.",
+    "raw_text": "## Section 4: Communication\nDuring a Critical or High severity incident, the designated incident\ncommander is the single point of communication. External communication\n(customers, regulators, press) must be approved by Legal and Executive\nleadership before release.",
+    "source": "incident_response_policy.md",
+    "section": "Section 4: Communication",
+    "doc_type": "policy",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0017",
+    "text": "[incident_response_policy.md | Section 5: Roles and Responsibilities]\n## Section 5: Roles and Responsibilities\n- **Incident Commander**: Coordinates the overall response and makes final\n  decisions during active incidents.\n- **Security Analyst**: Performs technical investigation, containment, and\n  evidence collection.\n- **IT Operations**: Executes system isolation, restoration, and patching.\n- **Legal/Compliance**: Assesses regulatory notification obligations (e.g.,\n  breach notification laws) and reviews external communications.",
+    "raw_text": "## Section 5: Roles and Responsibilities\n- **Incident Commander**: Coordinates the overall response and makes final\n  decisions during active incidents.\n- **Security Analyst**: Performs technical investigation, containment, and\n  evidence collection.\n- **IT Operations**: Executes system isolation, restoration, and patching.\n- **Legal/Compliance**: Assesses regulatory notification obligations (e.g.,\n  breach notification laws) and reviews external communications.",
+    "source": "incident_response_policy.md",
+    "section": "Section 5: Roles and Responsibilities",
+    "doc_type": "policy",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0018",
+    "text": "[nist_800_53_families.json | AC]\nAccess Control - Governs who is allowed to access systems and data and under what conditions. This is the family most organizations spend the most implementation effort on, since it touches account provisioning, least privilege, session limits, and remote access.",
+    "raw_text": "Access Control - Governs who is allowed to access systems and data and under what conditions. This is the family most organizations spend the most implementation effort on, since it touches account provisioning, least privilege, session limits, and remote access.",
+    "source": "nist_800_53_families.json",
+    "section": "AC",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0019",
+    "text": "[nist_800_53_families.json | AT]\nAwareness and Training - Requires role-based security and privacy training so that people understand and follow the policies that technical controls alone can't enforce. It's the smallest family by control count but underpins every other family, since untrained staff routinely defeat well-designed technical controls.",
+    "raw_text": "Awareness and Training - Requires role-based security and privacy training so that people understand and follow the policies that technical controls alone can't enforce. It's the smallest family by control count but underpins every other family, since untrained staff routinely defeat well-designed technical controls.",
+    "source": "nist_800_53_families.json",
+    "section": "AT",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0020",
+    "text": "[nist_800_53_families.json | AU]\nAudit and Accountability - Covers what gets logged, how logs are protected and retained, and how they're reviewed. Strong audit controls are what make incident investigation and non-repudiation possible after the fact.",
+    "raw_text": "Audit and Accountability - Covers what gets logged, how logs are protected and retained, and how they're reviewed. Strong audit controls are what make incident investigation and non-repudiation possible after the fact.",
+    "source": "nist_800_53_families.json",
+    "section": "AU",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0021",
+    "text": "[nist_800_53_families.json | CA]\nAssessment, Authorization, and Monitoring - Deals with formally assessing whether controls work as intended, authorizing a system to operate, and continuously monitoring it afterward rather than treating security as a one-time checkbox.",
+    "raw_text": "Assessment, Authorization, and Monitoring - Deals with formally assessing whether controls work as intended, authorizing a system to operate, and continuously monitoring it afterward rather than treating security as a one-time checkbox.",
+    "source": "nist_800_53_families.json",
+    "section": "CA",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0022",
+    "text": "[nist_800_53_families.json | CM]\nConfiguration Management - Establishes baseline configurations, controls how changes are made, and requires a complete inventory of hardware, software, and firmware. Configuration drift is one of the most common root causes of real-world breaches, which is why this family exists.",
+    "raw_text": "Configuration Management - Establishes baseline configurations, controls how changes are made, and requires a complete inventory of hardware, software, and firmware. Configuration drift is one of the most common root causes of real-world breaches, which is why this family exists.",
+    "source": "nist_800_53_families.json",
+    "section": "CM",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0023",
+    "text": "[nist_800_53_families.json | CP]\nContingency Planning - Addresses how the organization keeps operating, or recovers quickly, after a disruption -- covering backup strategy, alternate processing sites, and recovery testing rather than just having a plan on paper.",
+    "raw_text": "Contingency Planning - Addresses how the organization keeps operating, or recovers quickly, after a disruption -- covering backup strategy, alternate processing sites, and recovery testing rather than just having a plan on paper.",
+    "source": "nist_800_53_families.json",
+    "section": "CP",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0024",
+    "text": "[nist_800_53_families.json | IA]\nIdentification and Authentication - Governs how users, devices, and processes prove who they are before being granted access, including password policy, multi-factor authentication, and cryptographic identity verification.",
+    "raw_text": "Identification and Authentication - Governs how users, devices, and processes prove who they are before being granted access, including password policy, multi-factor authentication, and cryptographic identity verification.",
+    "source": "nist_800_53_families.json",
+    "section": "IA",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0025",
+    "text": "[nist_800_53_families.json | IR]\nIncident Response - Requires organizations to have a tested plan for detecting, reporting, containing, and recovering from security incidents, plus coordination procedures with outside parties such as law enforcement or regulators.",
+    "raw_text": "Incident Response - Requires organizations to have a tested plan for detecting, reporting, containing, and recovering from security incidents, plus coordination procedures with outside parties such as law enforcement or regulators.",
+    "source": "nist_800_53_families.json",
+    "section": "IR",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0026",
+    "text": "[nist_800_53_families.json | MA]\nMaintenance - Covers routine system maintenance activities -- including remote maintenance -- so that upkeep work doesn't itself become a security gap, for example through unmonitored remote maintenance sessions.",
+    "raw_text": "Maintenance - Covers routine system maintenance activities -- including remote maintenance -- so that upkeep work doesn't itself become a security gap, for example through unmonitored remote maintenance sessions.",
+    "source": "nist_800_53_families.json",
+    "section": "MA",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0027",
+    "text": "[nist_800_53_families.json | MP]\nMedia Protection - Governs how physical and digital media (drives, backup tapes, removable storage) are marked, stored, transported, and ultimately sanitized or destroyed so that decommissioned media doesn't leak data.",
+    "raw_text": "Media Protection - Governs how physical and digital media (drives, backup tapes, removable storage) are marked, stored, transported, and ultimately sanitized or destroyed so that decommissioned media doesn't leak data.",
+    "source": "nist_800_53_families.json",
+    "section": "MP",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0028",
+    "text": "[nist_800_53_families.json | PE]\nPhysical and Environmental Protection - Addresses physical facility security: access control to buildings and server rooms, visitor management, and environmental safeguards like fire suppression and power redundancy. Any organization running its own data center implements this family heavily.",
+    "raw_text": "Physical and Environmental Protection - Addresses physical facility security: access control to buildings and server rooms, visitor management, and environmental safeguards like fire suppression and power redundancy. Any organization running its own data center implements this family heavily.",
+    "source": "nist_800_53_families.json",
+    "section": "PE",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0029",
+    "text": "[nist_800_53_families.json | PL]\nPlanning - Requires organizations to actually document security and privacy plans for each system, including rules of behavior for users and system security architecture, rather than relying on informal or undocumented practices.",
+    "raw_text": "Planning - Requires organizations to actually document security and privacy plans for each system, including rules of behavior for users and system security architecture, rather than relying on informal or undocumented practices.",
+    "source": "nist_800_53_families.json",
+    "section": "PL",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0030",
+    "text": "[nist_800_53_families.json | PM]\nProgram Management - Operates at the organization level rather than the system level, covering things like an overall security program plan, a named senior accountable official, and an enterprise-wide risk strategy that individual system owners plug into.",
+    "raw_text": "Program Management - Operates at the organization level rather than the system level, covering things like an overall security program plan, a named senior accountable official, and an enterprise-wide risk strategy that individual system owners plug into.",
+    "source": "nist_800_53_families.json",
+    "section": "PM",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0031",
+    "text": "[nist_800_53_families.json | PS]\nPersonnel Security - Covers the security-relevant parts of the employee lifecycle: pre-employment screening, access agreements, and prompt access revocation on termination or role transfer.",
+    "raw_text": "Personnel Security - Covers the security-relevant parts of the employee lifecycle: pre-employment screening, access agreements, and prompt access revocation on termination or role transfer.",
+    "source": "nist_800_53_families.json",
+    "section": "PS",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0032",
+    "text": "[nist_800_53_families.json | PT]\nPII Processing and Transparency - Added in Revision 5, this family sets requirements for handling personally identifiable information: what authority is needed to process it, how consent and purpose are documented, and how data minimization is applied.",
+    "raw_text": "PII Processing and Transparency - Added in Revision 5, this family sets requirements for handling personally identifiable information: what authority is needed to process it, how consent and purpose are documented, and how data minimization is applied.",
+    "source": "nist_800_53_families.json",
+    "section": "PT",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0033",
+    "text": "[nist_800_53_families.json | RA]\nRisk Assessment - Requires organizations to identify risks, categorize system impact level, and run vulnerability scanning, forming the basis for deciding which control baseline (Low, Moderate, or High) applies to a given system.",
+    "raw_text": "Risk Assessment - Requires organizations to identify risks, categorize system impact level, and run vulnerability scanning, forming the basis for deciding which control baseline (Low, Moderate, or High) applies to a given system.",
+    "source": "nist_800_53_families.json",
+    "section": "RA",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0034",
+    "text": "[nist_800_53_families.json | SA]\nSystem and Services Acquisition - Addresses security throughout the system development lifecycle and when acquiring third-party systems or services, including secure development practices and evaluation of vendor security posture.",
+    "raw_text": "System and Services Acquisition - Addresses security throughout the system development lifecycle and when acquiring third-party systems or services, including secure development practices and evaluation of vendor security posture.",
+    "source": "nist_800_53_families.json",
+    "section": "SA",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0035",
+    "text": "[nist_800_53_families.json | SC]\nSystem and Communications Protection - The largest family by control count, covering encryption, network boundary protection, segmentation, and cryptographic key management -- essentially the technical backbone of network and data-in-transit security.",
+    "raw_text": "System and Communications Protection - The largest family by control count, covering encryption, network boundary protection, segmentation, and cryptographic key management -- essentially the technical backbone of network and data-in-transit security.",
+    "source": "nist_800_53_families.json",
+    "section": "SC",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0036",
+    "text": "[nist_800_53_families.json | SI]\nSystem and Information Integrity - Focuses on keeping systems and data trustworthy over time: timely patching of known flaws, malicious code protection, and monitoring for unauthorized changes to software or firmware.",
+    "raw_text": "System and Information Integrity - Focuses on keeping systems and data trustworthy over time: timely patching of known flaws, malicious code protection, and monitoring for unauthorized changes to software or firmware.",
+    "source": "nist_800_53_families.json",
+    "section": "SI",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0037",
+    "text": "[nist_800_53_families.json | SR]\nSupply Chain Risk Management - Added in Revision 5, this family addresses risk introduced through vendors, suppliers, and third-party components -- including provenance tracking and authenticity verification of acquired hardware and software.",
+    "raw_text": "Supply Chain Risk Management - Added in Revision 5, this family addresses risk introduced through vendors, suppliers, and third-party components -- including provenance tracking and authenticity verification of acquired hardware and software.",
+    "source": "nist_800_53_families.json",
+    "section": "SR",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0038",
+    "text": "[owasp_top10_2021.json | A01:2021]\nBroken Access Control - The top-ranked risk in the 2021 list, moving up from fifth place. Occurs when restrictions on what authenticated users are allowed to do aren't properly enforced, letting attackers act outside their intended permissions -- for example, viewing or modifying another user's data by simply changing an ID in a URL.",
+    "raw_text": "Broken Access Control - The top-ranked risk in the 2021 list, moving up from fifth place. Occurs when restrictions on what authenticated users are allowed to do aren't properly enforced, letting attackers act outside their intended permissions -- for example, viewing or modifying another user's data by simply changing an ID in a URL.",
+    "source": "owasp_top10_2021.json",
+    "section": "A01:2021",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0039",
+    "text": "[owasp_top10_2021.json | A02:2021]\nCryptographic Failures - Previously called 'Sensitive Data Exposure,' this category was renamed to focus on the root cause rather than the symptom: failures in how data is encrypted, or not encrypted, both at rest and in transit, including use of weak or outdated cryptographic algorithms.",
+    "raw_text": "Cryptographic Failures - Previously called 'Sensitive Data Exposure,' this category was renamed to focus on the root cause rather than the symptom: failures in how data is encrypted, or not encrypted, both at rest and in transit, including use of weak or outdated cryptographic algorithms.",
+    "source": "owasp_top10_2021.json",
+    "section": "A02:2021",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0040",
+    "text": "[owasp_top10_2021.json | A03:2021]\nInjection - Occurs when untrusted input is passed to an interpreter (SQL, OS commands, LDAP, etc.) as part of a command or query without proper validation, allowing an attacker to execute unintended commands. Cross-site scripting (XSS) is now included in this category.",
+    "raw_text": "Injection - Occurs when untrusted input is passed to an interpreter (SQL, OS commands, LDAP, etc.) as part of a command or query without proper validation, allowing an attacker to execute unintended commands. Cross-site scripting (XSS) is now included in this category.",
+    "source": "owasp_top10_2021.json",
+    "section": "A03:2021",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0041",
+    "text": "[owasp_top10_2021.json | A04:2021]\nInsecure Design - A new category for 2021 focused on flaws in design and architecture rather than implementation bugs -- risks that exist even in flawlessly-coded software because the underlying design itself failed to account for a threat, such as missing rate-limiting on a password reset flow.",
+    "raw_text": "Insecure Design - A new category for 2021 focused on flaws in design and architecture rather than implementation bugs -- risks that exist even in flawlessly-coded software because the underlying design itself failed to account for a threat, such as missing rate-limiting on a password reset flow.",
+    "source": "owasp_top10_2021.json",
+    "section": "A04:2021",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0042",
+    "text": "[owasp_top10_2021.json | A05:2021]\nSecurity Misconfiguration - Covers insecure default configurations, incomplete or ad-hoc configurations, open cloud storage, unnecessary features left enabled, and overly verbose error messages that reveal implementation details to attackers.",
+    "raw_text": "Security Misconfiguration - Covers insecure default configurations, incomplete or ad-hoc configurations, open cloud storage, unnecessary features left enabled, and overly verbose error messages that reveal implementation details to attackers.",
+    "source": "owasp_top10_2021.json",
+    "section": "A05:2021",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0043",
+    "text": "[owasp_top10_2021.json | A06:2021]\nVulnerable and Outdated Components - Applies when software is built using libraries, frameworks, or other components with known vulnerabilities, or components that are no longer supported, without a process to track and patch them.",
+    "raw_text": "Vulnerable and Outdated Components - Applies when software is built using libraries, frameworks, or other components with known vulnerabilities, or components that are no longer supported, without a process to track and patch them.",
+    "source": "owasp_top10_2021.json",
+    "section": "A06:2021",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0044",
+    "text": "[owasp_top10_2021.json | A07:2021]\nIdentification and Authentication Failures - Covers weaknesses in confirming a user's identity, including permitting weak or default passwords, missing multi-factor authentication, and exposing session identifiers in URLs.",
+    "raw_text": "Identification and Authentication Failures - Covers weaknesses in confirming a user's identity, including permitting weak or default passwords, missing multi-factor authentication, and exposing session identifiers in URLs.",
+    "source": "owasp_top10_2021.json",
+    "section": "A07:2021",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0045",
+    "text": "[owasp_top10_2021.json | A08:2021]\nSoftware and Data Integrity Failures - A new category for 2021 covering assumptions made about software updates, critical data, and CI/CD pipelines without verifying integrity -- for example, applications relying on plugins or libraries from untrusted sources or repositories.",
+    "raw_text": "Software and Data Integrity Failures - A new category for 2021 covering assumptions made about software updates, critical data, and CI/CD pipelines without verifying integrity -- for example, applications relying on plugins or libraries from untrusted sources or repositories.",
+    "source": "owasp_top10_2021.json",
+    "section": "A08:2021",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0046",
+    "text": "[owasp_top10_2021.json | A09:2021]\nSecurity Logging and Monitoring Failures - Occurs when insufficient logging, detection, and alerting exists to catch breaches in progress; this category doesn't directly cause a breach but significantly worsens impact and response time when one occurs.",
+    "raw_text": "Security Logging and Monitoring Failures - Occurs when insufficient logging, detection, and alerting exists to catch breaches in progress; this category doesn't directly cause a breach but significantly worsens impact and response time when one occurs.",
+    "source": "owasp_top10_2021.json",
+    "section": "A09:2021",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0047",
+    "text": "[owasp_top10_2021.json | A10:2021]\nServer-Side Request Forgery - A new category for 2021 where an application fetches a remote resource without validating the user-supplied URL, allowing an attacker to coerce the server into making requests to unintended destinations, including internal-only systems.",
+    "raw_text": "Server-Side Request Forgery - A new category for 2021 where an application fetches a remote resource without validating the user-supplied URL, allowing an attacker to coerce the server into making requests to unintended destinations, including internal-only systems.",
+    "source": "owasp_top10_2021.json",
+    "section": "A10:2021",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0048",
+    "text": "[threat_tactics.json | TA0001]\nInitial Access - Techniques adversaries use to gain an initial foothold within a network, such as phishing emails with malicious attachments, exploiting public-facing applications, or using valid credentials obtained through prior compromise.",
+    "raw_text": "Initial Access - Techniques adversaries use to gain an initial foothold within a network, such as phishing emails with malicious attachments, exploiting public-facing applications, or using valid credentials obtained through prior compromise.",
+    "source": "threat_tactics.json",
+    "section": "TA0001",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0049",
+    "text": "[threat_tactics.json | TA0002]\nExecution - Techniques that result in adversary-controlled code running on a local or remote system, including command-line interpreters, scripting engines, and scheduled tasks.",
+    "raw_text": "Execution - Techniques that result in adversary-controlled code running on a local or remote system, including command-line interpreters, scripting engines, and scheduled tasks.",
+    "source": "threat_tactics.json",
+    "section": "TA0002",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0050",
+    "text": "[threat_tactics.json | TA0003]\nPersistence - Techniques adversaries use to maintain access to systems across restarts, credential changes, and other interruptions, such as creating new accounts or modifying startup processes.",
+    "raw_text": "Persistence - Techniques adversaries use to maintain access to systems across restarts, credential changes, and other interruptions, such as creating new accounts or modifying startup processes.",
+    "source": "threat_tactics.json",
+    "section": "TA0003",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0051",
+    "text": "[threat_tactics.json | TA0004]\nPrivilege Escalation - Techniques adversaries use to gain higher-level permissions on a system or network, often by exploiting misconfigurations or vulnerabilities in access control mechanisms.",
+    "raw_text": "Privilege Escalation - Techniques adversaries use to gain higher-level permissions on a system or network, often by exploiting misconfigurations or vulnerabilities in access control mechanisms.",
+    "source": "threat_tactics.json",
+    "section": "TA0004",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0052",
+    "text": "[threat_tactics.json | TA0005]\nDefense Evasion - Techniques adversaries use to avoid detection, including disabling security software, obfuscating malicious code, or clearing logs of their activity.",
+    "raw_text": "Defense Evasion - Techniques adversaries use to avoid detection, including disabling security software, obfuscating malicious code, or clearing logs of their activity.",
+    "source": "threat_tactics.json",
+    "section": "TA0005",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0053",
+    "text": "[threat_tactics.json | TA0006]\nCredential Access - Techniques for stealing credentials such as account names and passwords, including keylogging, credential dumping, and brute-force attacks.",
+    "raw_text": "Credential Access - Techniques for stealing credentials such as account names and passwords, including keylogging, credential dumping, and brute-force attacks.",
+    "source": "threat_tactics.json",
+    "section": "TA0006",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0054",
+    "text": "[threat_tactics.json | TA0007]\nDiscovery - Techniques adversaries use to gain knowledge about a system and internal network, such as enumerating accounts, network shares, and installed software.",
+    "raw_text": "Discovery - Techniques adversaries use to gain knowledge about a system and internal network, such as enumerating accounts, network shares, and installed software.",
+    "source": "threat_tactics.json",
+    "section": "TA0007",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0055",
+    "text": "[threat_tactics.json | TA0008]\nLateral Movement - Techniques adversaries use to move through a network from one system to another, often using stolen credentials or remote services.",
+    "raw_text": "Lateral Movement - Techniques adversaries use to move through a network from one system to another, often using stolen credentials or remote services.",
+    "source": "threat_tactics.json",
+    "section": "TA0008",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0056",
+    "text": "[threat_tactics.json | TA0009]\nCollection - Techniques adversaries use to gather data of interest prior to exfiltration, such as capturing screenshots, keystrokes, or accessing local files.",
+    "raw_text": "Collection - Techniques adversaries use to gather data of interest prior to exfiltration, such as capturing screenshots, keystrokes, or accessing local files.",
+    "source": "threat_tactics.json",
+    "section": "TA0009",
+    "doc_type": "structured",
+    "part": "1/1"
+  },
+  {
+    "chunk_id": "chunk_0057",
+    "text": "[threat_tactics.json | TA0010]\nExfiltration - Techniques adversaries use to steal data from a network, including transferring it over command-and-control channels or physical media.",
+    "raw_text": "Exfiltration - Techniques adversaries use to steal data from a network, including transferring it over command-and-control channels or physical media.",
+    "source": "threat_tactics.json",
+    "section": "TA0010",
+    "doc_type": "structured",
+    "part": "1/1"
+  }
+]

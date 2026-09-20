@@ -1,0 +1,52 @@
+[
+  {
+    "id": "TA0001",
+    "tactic": "Initial Access",
+    "description": "Techniques adversaries use to gain an initial foothold within a network, such as phishing emails with malicious attachments, exploiting public-facing applications, or using valid credentials obtained through prior compromise."
+  },
+  {
+    "id": "TA0002",
+    "tactic": "Execution",
+    "description": "Techniques that result in adversary-controlled code running on a local or remote system, including command-line interpreters, scripting engines, and scheduled tasks."
+  },
+  {
+    "id": "TA0003",
+    "tactic": "Persistence",
+    "description": "Techniques adversaries use to maintain access to systems across restarts, credential changes, and other interruptions, such as creating new accounts or modifying startup processes."
+  },
+  {
+    "id": "TA0004",
+    "tactic": "Privilege Escalation",
+    "description": "Techniques adversaries use to gain higher-level permissions on a system or network, often by exploiting misconfigurations or vulnerabilities in access control mechanisms."
+  },
+  {
+    "id": "TA0005",
+    "tactic": "Defense Evasion",
+    "description": "Techniques adversaries use to avoid detection, including disabling security software, obfuscating malicious code, or clearing logs of their activity."
+  },
+  {
+    "id": "TA0006",
+    "tactic": "Credential Access",
+    "description": "Techniques for stealing credentials such as account names and passwords, including keylogging, credential dumping, and brute-force attacks."
+  },
+  {
+    "id": "TA0007",
+    "tactic": "Discovery",
+    "description": "Techniques adversaries use to gain knowledge about a system and internal network, such as enumerating accounts, network shares, and installed software."
+  },
+  {
+    "id": "TA0008",
+    "tactic": "Lateral Movement",
+    "description": "Techniques adversaries use to move through a network from one system to another, often using stolen credentials or remote services."
+  },
+  {
+    "id": "TA0009",
+    "tactic": "Collection",
+    "description": "Techniques adversaries use to gather data of interest prior to exfiltration, such as capturing screenshots, keystrokes, or accessing local files."
+  },
+  {
+    "id": "TA0010",
+    "tactic": "Exfiltration",
+    "description": "Techniques adversaries use to steal data from a network, including transferring it over command-and-control channels or physical media."
+  }
+]

@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[user]
+	email = you@example.com
+	name = SecuRAG Author
+[lfs]
+	repositoryformatversion = 0

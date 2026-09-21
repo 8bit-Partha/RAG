@@ -1,0 +1,97 @@
+[
+  {
+    "question": "How long does temporary elevated access last before it expires?",
+    "expected_source": "access_control_policy.md",
+    "expected_section": "Section 3: Authentication Requirements"
+  },
+  {
+    "question": "Within what time frame must access be revoked after an involuntary termination?",
+    "expected_source": "access_control_policy.md",
+    "expected_section": "Section 4: Access Review"
+  },
+  {
+    "question": "What is required before external communication can be released during a critical security incident?",
+    "expected_source": "incident_response_policy.md",
+    "expected_section": "Section 4: Communication"
+  },
+  {
+    "question": "How quickly must a Critical severity incident be escalated to the CISO?",
+    "expected_source": "incident_response_policy.md",
+    "expected_section": "Section 2: Incident Classification"
+  },
+  {
+    "question": "Is it acceptable to connect a personal USB drive to a system that processes sensitive data?",
+    "expected_source": "acceptable_use_policy.md",
+    "expected_section": "Section 3: Prohibited Activities"
+  },
+  {
+    "question": "What technique category does credential dumping fall under?",
+    "expected_source": "threat_tactics.json",
+    "expected_section": "TA0006"
+  },
+  {
+    "question": "Which tactic covers an adversary moving from one compromised system to another?",
+    "expected_source": "threat_tactics.json",
+    "expected_section": "TA0008"
+  },
+  {
+    "question": "What is the minimum password length required by policy?",
+    "expected_source": "access_control_policy.md",
+    "expected_section": "Section 3: Authentication Requirements"
+  },
+  {
+    "question": "Who has authority to produce the post-incident review report?",
+    "expected_source": "incident_response_policy.md",
+    "expected_section": "Section 3: Response Procedure"
+  },
+  {
+    "question": "How often are third-party access grants reviewed?",
+    "expected_source": "access_control_policy.md",
+    "expected_section": "Section 6: Third-Party Access"
+  },
+  {
+    "question": "Which NIST 800-53 control family covers encryption and network boundary protection?",
+    "expected_source": "nist_800_53_families.json",
+    "expected_section": "SC"
+  },
+  {
+    "question": "Which NIST 800-53 control family is the smallest, and what does it cover?",
+    "expected_source": "nist_800_53_families.json",
+    "expected_section": "AT"
+  },
+  {
+    "question": "What NIST 800-53 control family was added in Revision 5 to handle personally identifiable information?",
+    "expected_source": "nist_800_53_families.json",
+    "expected_section": "PT"
+  },
+  {
+    "question": "Which NIST control family covers supply chain and vendor risk?",
+    "expected_source": "nist_800_53_families.json",
+    "expected_section": "SR"
+  },
+  {
+    "question": "What is the top-ranked risk in the OWASP Top 10 2021 list?",
+    "expected_source": "owasp_top10_2021.json",
+    "expected_section": "A01:2021"
+  },
+  {
+    "question": "What OWASP category was previously called 'Sensitive Data Exposure'?",
+    "expected_source": "owasp_top10_2021.json",
+    "expected_section": "A02:2021"
+  },
+  {
+    "question": "Which OWASP category is new for 2021 and covers flaws in application design rather than implementation bugs?",
+    "expected_source": "owasp_top10_2021.json",
+    "expected_section": "A04:2021"
+  },
+  {
+    "question": "What does Server-Side Request Forgery involve according to the OWASP Top 10?",
+    "expected_source": "owasp_top10_2021.json",
+    "expected_section": "A10:2021"
+  },
+  {
+    "question": "Which MITRE-style adversary tactic covers stealing account credentials?",
+    "expected_source": "threat_tactics.json",
+    "expected_section": "TA0006"
+  }
+]

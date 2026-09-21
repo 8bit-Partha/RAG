@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 97d5baad25e4c5585ef8bbd8692518fe6174f8bd SecuRAG Author <you@example.com> 1789584211 +0000	commit (initial): Initial commit: SecuRAG RAG pipeline
+97d5baad25e4c5585ef8bbd8692518fe6174f8bd 0000000000000000000000000000000000000000 SecuRAG Author <you@example.com> 1789584211 +0000	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 97d5baad25e4c5585ef8bbd8692518fe6174f8bd SecuRAG Author <you@example.com> 1789584211 +0000	Branch: renamed refs/heads/master to refs/heads/main
+97d5baad25e4c5585ef8bbd8692518fe6174f8bd 92bbd7b150e9d96b0c112cf522778e258075e2e1 SecuRAG Author <you@example.com> 1789803901 +0530	commit: Ragg

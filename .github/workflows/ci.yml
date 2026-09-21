@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # Only install the lightweight deps needed for ingestion/chunking/
+      # retrieval-logic tests. Embedding/generation tests need
+      # sentence-transformers + an API key and are intentionally excluded
+      # from CI to keep it fast and free to run on every push -- see
+      # eval/evaluate.py for the full-pipeline check to run locally/manually.
+      - name: Install test dependencies
+        run: |
+          pip install pytest rank-bm25 pypdf
+
+      - name: Run unit tests
+        run: pytest tests/ -v
+
+      - name: Verify all modules compile
+        run: python -m py_compile $(find src app eval -name "*.py")

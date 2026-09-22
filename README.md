@@ -1,4 +1,4 @@
-# SecuRAG — Cybersecurity Knowledge Assistant
+# RAG-Ai — Cybersecurity Knowledge Assistant
 
 A Retrieval-Augmented Generation (RAG) chatbot that answers cybersecurity
 questions grounded in real source documents — security policies, and
@@ -98,66 +98,6 @@ securag/
 └── requirements.txt
 ```
 
-## Setup
-
-```bash
-git clone <your-repo-url>
-cd securag
-python -m venv .venv && source .venv/bin/activate     # or .venv\Scripts\activate on Windows
-pip install -r requirements.txt
-
-cp .env.example .env      # then add your ANTHROPIC_API_KEY
-```
-
-## Usage
-
-**1. Build the index** (parses `data/raw/`, chunks, embeds, stores in Chroma):
-
-```bash
-python -m src.pipeline --build
-
-# Or, to also run contextual retrieval enrichment (extra API calls, better
-# retrieval quality on longer/less-structured documents):
-python -m src.pipeline --build --contextual
-```
-
-**2. Ask a question from the command line:**
-
-```bash
-python -m src.pipeline --query "How long does temporary elevated access last?"
-```
-
-**3. Or launch the chat UI:**
-
-```bash
-streamlit run app/streamlit_app.py
-```
-
-**4. Run the evaluation suite:**
-
-```bash
-python -m eval.evaluate                # retrieval + generation (needs API key)
-python -m eval.evaluate --no-generation  # retrieval only, no API key needed
-```
-
-This prints retrieval hit rate and generation groundedness against the
-20 labeled questions in `eval/test_questions.json`, and writes per-question
-detail to `eval/results.json`. Run it after you build the index to get
-real numbers for your own copy of the project.
-
-**5. Run the unit tests:**
-
-```bash
-pytest tests/ -v
-```
-
-**6. Or run everything in Docker:**
-
-```bash
-cp .env.example .env   # add your API key
-docker compose up --build
-```
-
 ## Data included
 
 The repo ships with a real, heterogeneous corpus — not just toy data —
@@ -206,79 +146,10 @@ structured JSON source with different field names, register it in
 - **Docker / docker-compose** — containerized deployment that builds the
   index at image build time and serves the Streamlit UI.
 
-## Design notes / things I'd improve next
-
-- Swap Chroma for Qdrant if scaling past a single-machine demo —
-  interface in `chroma_store.py` maps directly.
-- Add metadata filtering in the UI (e.g. "search only NIST controls")
-  using the `doc_type` field already attached to every chunk.
-- Replace the evaluation script's simple citation-match check with
-  [Ragas](https://docs.ragas.io) for LLM-graded faithfulness and context
-  precision metrics.
-- Add reciprocal rank fusion weight tuning — currently both search
-  methods are weighted equally; a labeled eval set (already included)
-  makes it possible to tune this empirically instead of guessing.
-
 ## Tech stack
 
 Python · sentence-transformers (BGE embeddings) · ChromaDB · rank-bm25 ·
 Claude API (Anthropic, including for contextual retrieval enrichment) ·
-Streamlit · Docker · pytest · GitHub Actions
-
-## Deployment
-
-Two supported paths, depending on where you want it running.
-
-### Option A — Streamlit Community Cloud (free, easiest)
-
-1. Push this repo to GitHub (see below).
-2. Go to [share.streamlit.io](https://share.streamlit.io), sign in, and pick
-   **New app** → select your repo → set the main file path to
-   `app/streamlit_app.py`.
-3. Under **Advanced settings → Secrets**, add:
-   ```
-   ANTHROPIC_API_KEY = "sk-ant-your-key-here"
-   ```
-4. Deploy. The app builds its search index automatically on first load
-   (see `app/streamlit_app.py`) — no manual `--build` step needed for a
-   fresh deploy.
-
-**Resource note:** the free tier has limited memory, and
-`sentence-transformers` + `chromadb` are not lightweight. If the app
-struggles to start on the free tier, that's a resource-limit issue, not
-a code issue — Option B gives you more headroom.
-
-### Option B — Docker (Render, Railway, Fly.io, or any VPS)
-
-The included `Dockerfile` builds the index at image build time, so the
-container is ready to serve immediately:
-
-```bash
-docker compose up --build
-```
-
-For a hosting provider (Render, Railway, Fly.io all support this
-pattern): point it at this repo, let it build from the `Dockerfile`, and
-set `ANTHROPIC_API_KEY` as an environment variable/secret in the
-provider's dashboard. Expose port `8501`.
-
-## Publishing to GitHub
-
-```bash
-git init                      # skip if already a git repo
-git add .
-git commit -m "Initial commit: SecuRAG RAG pipeline"
-git branch -M main
-git remote add origin https://github.com/<your-username>/securag.git
-git push -u origin main
-```
-
-`.gitignore` already excludes `.env`, the built index
-(`data/processed/chroma_db/`, `chunks.json`), and Python cache files —
-so secrets and generated artifacts won't end up in the repo. Double
-check `git status` before your first commit if you've been running the
-pipeline locally, since a build will have created those files.
-
+Streamlit · Docker · pytest · GitHub Actions.
 The CI workflow (`.github/workflows/ci.yml`) runs automatically on every
-push once the repo is on GitHub — no setup needed, it uses only
-lightweight dependencies so it doesn't require secrets to run.
+push once the repo is on GitHub — no setup neede
